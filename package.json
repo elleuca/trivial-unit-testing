@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/elleuca/trivial-unit-testing/issues"
   },
-  "homepage": "https://github.com/elleuca/trivial-unit-testing#readme"
+  "homepage": "https://github.com/elleuca/trivial-unit-testing#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6"
+  }
 }
