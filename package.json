@@ -1,0 +1,25 @@
+{
+  "name": "trivial-unit-testing",
+  "version": "0.1.0",
+  "description": "Trivial unit testing with karma/jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elleuca/trivial-unit-testing.git"
+  },
+  "keywords": [
+    "unit testing",
+    "karma",
+    "jasmine",
+    "example"
+  ],
+  "author": "Luca Ferretti <elle.uca@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elleuca/trivial-unit-testing/issues"
+  },
+  "homepage": "https://github.com/elleuca/trivial-unit-testing#readme"
+}
