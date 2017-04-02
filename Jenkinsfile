@@ -1,14 +1,10 @@
 pipeline {
-  agent {
-    docker {
-      image 'node:6'
-    }
-    
-  }
+  agent any
   stages {
     stage('prepare') {
       steps {
-        sh 'npm --version'
+        sh '''wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+npm --version'''
       }
     }
   }
